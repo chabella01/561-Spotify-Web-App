@@ -1,0 +1,3 @@
+CLIENT_ID = ""
+ClIENT_SECRET = ""
+REDIRECT_URI = ""
