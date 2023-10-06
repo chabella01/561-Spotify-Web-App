@@ -9,17 +9,19 @@ h1{
     font-size:48px;
     
 }
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 .person{
     border: green 3px solid;
     border-radius: 40px;
     margin: auto;
     width: 35%;
     padding: 20px;
-    margin-bottom: 50px;
-    
-    
-
-    
+    margin-bottom: 50px; 
 }
 p{
     font-size:32px;
@@ -28,5 +30,14 @@ img{
     height:35px;
     width:auto;
     padding-right: 50px;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    border-radius: 8px;
 }
 /*change later based on what other pages look like*/
