@@ -8,10 +8,12 @@
         <link rel="stylesheet" href="connection_page_styles.css">
     </head>
     <body>
-        <label for="numericInput">Enter a 4-digit number:</label>
-        <input type="number" id="numericInput" name="numericInput" min="0" max="9999" maxlength="4" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
-        <button id="sessionButton">Create a session button</button>
+        <div class="center" id="container" >
 
+            <label for="numericInput">Enter a 4-digit number:</label>
+            <input type="number" id="numericInput" name="numericInput" min="0" max="9999" maxlength="4" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+            <button id="sessionButton">Create a session button</button>
+        <div>
     </body>
 </html>
 
