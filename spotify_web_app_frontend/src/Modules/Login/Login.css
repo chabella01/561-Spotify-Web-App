@@ -1,0 +1,98 @@
+.form-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:0;
+}
+
+.login-wrapper {
+    background-color: #212121;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-group {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.login-group input {
+    width: 25vw;
+    height: 25px;
+    background-color: #191414;
+    color: #fff;
+    border: 1px solid white;
+
+    margin: 10px;
+}
+
+.login-group label {
+    display: block;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-text {
+    color: #fff;
+    margin: 20px;
+}
+
+                                                       /* CSS */
+.form-button {
+   background-color: initial;
+   background-color: #1db954;
+   color: #FFFFFF;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+   height: 40px;
+   outline: 0;
+   overflow: hidden;
+   padding: 0 20px;
+   pointer-events: auto;
+   vertical-align: top;
+   width: 100%;
+   z-index: 9;
+   border: 0;
+   transition: box-shadow .2s;
+    margin: 10px;
+}
+
+.form-button:hover {
+    box-shadow: rgba(255, 255, 255, 0.5) 0 3px 8px;
+}
+
+.form-logo {
+    height: 400px;
+    position: relative;
+    top: 0;
+}
+
+.register-wrapper {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid white;
+    margin: 10px;
+}
+
+.sub-font-color {
+    color : #535353
+}
+
+.change-cursor {
+    cursor: pointer;
+}
