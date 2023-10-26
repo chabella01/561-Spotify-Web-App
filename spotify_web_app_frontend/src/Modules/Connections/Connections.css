@@ -1,0 +1,42 @@
+.connections-container {
+    background-color: #212121;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.session-button {
+    background-color: initial;
+    background-color: #1db954;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    vertical-align: top;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    margin: 10px;
+    width: 25%;
+}
+
+#numericInput {
+    width: 100px;
+}
+
+label {
+    color: #b3b3b3;
+    margin: 10px;
+}
+
+.gen-text {
+    color: #b3b3b3;
+    margin: 10px;
+}

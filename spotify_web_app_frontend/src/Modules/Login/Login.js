@@ -16,12 +16,6 @@ function Login() {
     const [password, setPassword] = useState('')
 
     const auth = useAuth()
-    //
-    // useEffect(() => {
-    //    if (auth) {
-    //
-    //    }
-    // })
 
     function handleClick() {
         navigate('/register')
@@ -48,8 +42,10 @@ function Login() {
 
     return (
         <div className={'login-wrapper'}>
-            <img src={logo} alt="Logo" className={"form-logo"}/>
             <Form className={"form-wrapper"}>
+                <div className={'header-login'}>
+                    Login
+                </div>
                 <Form.Group className={"login-group"}>
                     <Form.Label className={"form-text"}>Username</Form.Label>
                     <Form.Control

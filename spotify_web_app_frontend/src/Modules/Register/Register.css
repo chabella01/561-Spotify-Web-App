@@ -1,0 +1,17 @@
+.alert-warning {
+
+    color : red;
+    margin: 10px;
+}
+
+
+.form-button:disabled {
+    color: white;
+    background-color: grey;
+}
+
+.form-button:disabled:hover {
+    color: white;
+    background-color: grey;
+    box-shadow: none;
+}

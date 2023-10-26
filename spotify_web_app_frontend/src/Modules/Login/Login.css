@@ -2,10 +2,8 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    top:0;
+    background-color: #535353;
 }
 
 .login-wrapper {
@@ -14,8 +12,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 .login-group {
@@ -76,11 +74,6 @@
     box-shadow: rgba(255, 255, 255, 0.5) 0 3px 8px;
 }
 
-.form-logo {
-    height: 400px;
-    position: relative;
-    top: 0;
-}
 
 .register-wrapper {
     display: flex;
@@ -90,9 +83,15 @@
 }
 
 .sub-font-color {
-    color : #535353
+    color : black
 }
 
 .change-cursor {
     cursor: pointer;
+}
+
+.header-login {
+    color: #fff;
+    font-size: large;
+    margin: 20px;
 }
